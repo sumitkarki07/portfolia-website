@@ -378,11 +378,11 @@ section .title::after{
     width: 70%;
 }
 
-/* teams section styling */
-.teams .title::after{
-    content: "who with me";
+/* Projects section styling */
+.projects .title::after{
+    content: "what I've built";
 }
-.teams .carousel .card{
+.projects .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -390,25 +390,30 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.projects .carousel .card:hover{
     background: crimson;
 }
-.teams .carousel .card .box{
+.projects .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.projects .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.projects .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: white;
 }
-.teams .carousel .card img{
+.projects .carousel .card p{
+    color: white; /* Set the paragraph text color to white */
+}
+
+.projects .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -416,8 +421,25 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.projects .carousel .card:hover img{
     border-color: #fff;
+}
+.projects .carousel .card .more-btn {
+    margin-top: 10px;
+}
+.projects .carousel .card .more-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+.projects .carousel .card .more-btn a:hover {
+    background: #fff;
+    color: crimson;
+    border: 2px solid crimson;
 }
 .owl-dots{
     text-align: center;
@@ -440,6 +462,7 @@ section .title::after{
 .owl-dot:hover{
     background: crimson!important;
 }
+
 
 /* contact section styling */
 .contact .title::after{
