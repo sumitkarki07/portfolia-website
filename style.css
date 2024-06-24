@@ -412,7 +412,7 @@ section .title::after{
 .projects .carousel .card p{
     color: white; /* Set the paragraph text color to white */
 }
-
+ 
 .projects .carousel .card img{
     height: 150px;
     width: 150px;
