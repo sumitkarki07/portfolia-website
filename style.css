@@ -257,7 +257,7 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
+ /* services section styling 
 .services, .teams{
     color:#fff;
     background: #111;
@@ -301,7 +301,7 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-}
+}   */
 
 /* skills section styling */
 
@@ -377,6 +377,8 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
+
+
 
 /* Projects section styling */
 .projects .title::after{
